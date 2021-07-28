@@ -1,6 +1,8 @@
 # Projeto Fonte de Eletrônica
 
-## Alunos:
+Nesse projeto, realizamos a esquematização de uma fonte que recebe como entrada uma corrente alternada de 127 V, entregando uma corrente contínua de 3 a 12 V com amperagem de 100 mA.
+
+## Alunos
 
 | Nome                                   | Número USP | Contato (Gmail)     |
 |----------------------------------------|------------|---------------------
@@ -10,13 +12,31 @@
 
 
 
-## Explicação do Projeto
+## Componentes do Projeto
+
+* Transformador: Componente que irá transformar a diferença de potencial vinda da tomada, que possui RMS (root mean square) de 179,6 V, para uma menor e mais próxima do objetivo da nossa fonte (por volta de 19 V no pico). O seu funcionamento se dá a partir de suas bobinas, as quais, possuintes de um campo magnético, reduzem a corrente à desejada.
+
+* Diodos: São usados para retificar a corrente alternada vinda da tomada, usados na ponte de diodo que faz uma retificação de dupla onda que otimiza a voltagem da tomada através da inversão de um dos semicírculos da função da voltagem da tomada. 
+
+* Capacitor: Armazena a carga durante os picos da corrente alternada, liberando corrente quando a tensão do capacitor é maior que a tensão da fonte. O capacitor foi escolhido para um ripple de 10%, calculando chegamos à um valor de 463 uF, foi escolhido o valor comercial próximo de 470 uF. 
+
+* Diodo Zener: Regula a tensão máxima para 13 V, conduzindo apenas quando estiver acima dos 13 V e retém essa voltagem, regulando assim a tensão máxima. 
+
+* Resistores: Limitam a corrente que passam pelos componentes para não exceder o limite destes. 
+
+* Potenciômetro: Resistor variável utilizado para ajustar a tensão que vai para o transistor. 
+
+* Transistor: Utilizado para limitar a passagem de corrente diretamente para a saída.
 
 Explicar o porquê tiramos o indutor
+MUDAR A FOTO DO CIRCUITO OU O LINK PARA O CERTO
+
+## Cálculos utilizados
 
 ## Circuito do Falstad
 
-<img src="https://i.imgur.com/zcF3VyZ.png" alt="Circuito">
+<img src="https://i.imgur.com/98azN2l.png" alt="Circuito">
+<a href="http://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEBmWAWAbAdgwDgxmAEwJGQJohpYhJrK0CmAtGGAFADuKRIRRlNr36VIXEMxF8BEsAE5hMsd0kIM0ypNy4NUdgGcJJdVMkypkKCABmAQwA2+xuK060YdawVUPegG5G2rquPuqWEBjhWHLQYVYwCOwAKrLepnLq7nGi0GCQchIwHpC4aHIK0ZDICPgYDAi5dcRYaETYeRQILDQw5XLsACYSGbrIipS8YAByaHBog8PqY5bMI1l84DNzC2OhPLqTW5DzQ6tLZIsHm7PH7ADG4MS6QnuWMPDU4FjQclgCBNhfhgamFYJAOABzR68dYvei8N7sABOKFIKDwqJhvks1Dg4mqvGQx0xfCCyhQxKIQQJpJ0YmQlAAXn4APb2AAutghjAAOgBHMAMcLQLBgeikXDyKklbTIbpWSZC9iMimUdZEiZBXjMtmc7n8wXieGjSlKZGqk2aungeBGuC0qj25DIMLiASWKQa3Tkm4oF3onTO11gFokr00l06CB5eBQWBigoAJUY+gAlvpOQA7O7ObjGr1oXCWL0+3ZSY1EP56dmOj1BCtk8ASBptfg4UpjORobt0kVi2ZyXCDtrIQUEG2WAaMOwAVw5btmzyeFnNamLxLXr3AZHYAAcqEWLYWcb4IIjkFgcYevZuvWe9FCC74C4X4uxH2j1Z-X4ioce9v+PZvlCm7rKBP56CoazPlirpQmcPArBglDLG+KjIQexYwoeYgso8IAYTi+QFBcqAIhsbAoOweGVgRoiOuUfBvNAkwbLRyDUVYhEMQUi5kWxVgcXhBTcQONAXBg0AoRsBQcUAA">Circuito do Falstad</a>
 
 ## Tabela de peças, quantidades e valores
 
@@ -25,8 +45,10 @@ Explicar o porquê tiramos o indutor
 | 4   |  <a href="https://www.baudaeletronica.com.br/diodo-1n4004.html">Diodo 1N4004</a>          |  R$ 0,13 * 4 = R$0,52 |
 | 1   | <a href="https://www.baudaeletronica.com.br/capacitor-eletrolitico-470uf-25v.html?gclid=Cj0KCQjwl_SHBhCQARIsAFIFRVVx7R6O5ASnN9eOsV4yikA8JqS3I0bVRsjiD1Ygu-r7GOdJRdqGlBgaAl4eEALw_wcB">Capacitor 470uF </a>        | R$ 0,45                |
 | 1   | <a href="http://www.tiggercomp.com.br/novaloja/product_info.php?cPath=29&products_id=116">Resistor 1k ohms</a>       | R$ 0,13                |
-| 1   | <a href="http://www.tiggercomp.com.br/novaloja/product_info.php?cPath=29&products_id=132">Resistor 4,7k ohms</a>     | RS0,13                 |
+| 1   | <a href="http://www.tiggercomp.com.br/novaloja/product_info.php?cPath=29&products_id=132">Resistor 4,7k ohms</a>     | R$ 0,13                 |
 | 1   | <a href="https://www.baudaeletronica.com.br/potenciometro-linear-de-10k-10000.html">Potênciometro 10k ohms</a> | R$ 1,79                |
 | 1   | <a href="https://www.fazolocomponentes.com.br/_loja_/p/315661/diodo-zener-12w-13v-in-5243">Diodo Zener 1N5243</a>     | R$ 0,30                |
 | 1   | <a href="https://www.baudaeletronica.com.br/transistor-npn-bc548.html">Transistor NPN - BC548</a> | R$ 0,19                |
 | 1   | <a href="https://produto.mercadolivre.com.br/MLB-989896074-transformador-trafo-1818v-500ma-bivolt-eletronica-eletrica-_JM#position=34&search_layout=stack&type=item&tracking_id=83f121cf-e449-4516-b01e-541d4255aafb">Transformador 18V</a>        | R$ 34,99               |
+ 
+ **Total:** R$ 38,55
