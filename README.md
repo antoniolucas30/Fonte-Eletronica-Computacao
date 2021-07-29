@@ -37,8 +37,8 @@ Nesse projeto, realizamos a esquematização de uma fonte que recebe como entrad
 
 ## Circuito esquematizado e Placa PCB no Eagle
 
-<img src="https://i.imgur.com/t3Zq3lR.png"  alt="Circuito_Eagle">
-<img src="https://i.imgur.com/seGDjGS.png" alt="Placa_PCB">
+<img src="https://i.imgur.com/NZEK3ZQ.png"  alt="Circuito_Eagle">
+<img src="https://i.imgur.com/nYqBlXP.png" alt="Placa_PCB">
 
 ## Tabela de peças, quantidades e valores
 
