@@ -32,8 +32,8 @@ Nesse projeto, realizamos a esquematização de uma fonte que recebe como entrad
 
 ## Circuito do Falstad
 
-<img src="https://i.imgur.com/DXjHRPM.png" alt="Circuito">
-<a href="https://tinyurl.com/yge9snlj">Circuito do Falstad</a>
+<img src="https://i.imgur.com/OjdFo0b.png" alt="Circuito">
+<a href="https://tinyurl.com/ye7d76mt">Circuito do Falstad</a>
 
 ## Tabela de peças, quantidades e valores
 
