@@ -1,3 +1,4 @@
+
 # Projeto Fonte de Eletrônica
 
 Nesse projeto, realizamos a esquematização de uma fonte que recebe como entrada uma corrente alternada de 127 V, entregando uma corrente contínua de 3 a 12 V com amperagem de 100 mA.
@@ -39,6 +40,9 @@ Nesse projeto, realizamos a esquematização de uma fonte que recebe como entrad
 
 <img src="https://i.imgur.com/NZEK3ZQ.png"  alt="Circuito_Eagle">
 <img src="https://i.imgur.com/nYqBlXP.png" alt="Placa_PCB">
+
+## Apresentação do grupo:
+<iframe src="https://drive.google.com/file/d/1ICITjKiw59pVDsXIpHbE5iOb4zwymG8S/preview" width="853" height="480" allow="autoplay"></iframe>
 
 ## Tabela de peças, quantidades e valores
 
