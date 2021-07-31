@@ -42,7 +42,7 @@ Nesse projeto, realizamos a esquematização de uma fonte que recebe como entrad
 <img src="https://i.imgur.com/nYqBlXP.png" alt="Placa_PCB">
 
 ## Apresentação do grupo:
-<iframe src="https://drive.google.com/file/d/1ICITjKiw59pVDsXIpHbE5iOb4zwymG8S/preview" width="853" height="480" allow="autoplay"></iframe>
+![Apresentação](https://drive.google.com/file/d/1ICITjKiw59pVDsXIpHbE5iOb4zwymG8S/view)
 
 ## Tabela de peças, quantidades e valores
 
